@@ -1,6 +1,6 @@
 version: 0.2
 phases:
-<<<<<<< HEAD
+
   env:
     secrets-manager:
       LOCAL_SECRET_VAR: "firstSecret:tokenForSonarCloud"
@@ -12,7 +12,6 @@ phases:
       commands:
         - mvn verify sonar:sonar -Dsonar.projectKey=javaprojectaws -Dsonar.organization=javaprojectaws -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$TOKEN
 
-=======
   install:
     runtime-versions:
       java: latest
